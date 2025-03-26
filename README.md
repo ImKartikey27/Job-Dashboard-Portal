@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Job Dashboard Portal
 
-## Getting Started
+![Job Dashboard Portal](https://via.placeholder.com/800x300.png?text=Job+Dashboard+Portal)
 
-First, run the development server:
+## 🚀 Introduction
+The **Job Dashboard Portal** is a web application built using **Next.js** and **Tailwind CSS** to help users manage job applications, view job listings, and track their application status.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🛠 Tech Stack
+- **Framework:** Next.js
+- **Styling:** Tailwind CSS
+- **Package Manager:** npm, yarn, or pnpm
+- **Backend:** (TBD - Add backend details if applicable)
+
+## 📂 Project Structure
+```
+Job-Dashboard-Portal/
+│── public/           # Static assets
+│── src/              # Application source code
+│   ├── components/   # Reusable UI components
+│   ├── pages/        # Next.js pages
+│   ├── styles/       # Custom styles
+│── .gitignore        # Git ignore file
+│── package.json      # Project dependencies
+│── tailwind.config.mjs # Tailwind configuration
+│── next.config.mjs   # Next.js configuration
+└── README.md         # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 1️⃣ Prerequisites
+Ensure you have the following installed:
+- **Node.js** (v16 or later recommended)
+- **npm** or **yarn**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 2️⃣ Installation
+Clone the repository and install dependencies:
+```bash
+# Clone the repo
+git clone https://github.com/ImKartikey27/Job-Dashboard-Portal.git
+cd Job-Dashboard-Portal
 
-## Learn More
+# Install dependencies
+npm install  # or yarn install
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 3️⃣ Running the Development Server
+Start the Next.js development server:
+```bash
+npm run dev  # or yarn dev
+```
+The app will be live at **[http://localhost:3000](http://localhost:3000)**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Features
+✅ Job Listings Display  
+✅ Application Tracking  
+✅ User Authentication (Planned)  
+✅ Filtering & Sorting (Planned)  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📸 Screenshots
+Coming Soon! 🚀
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+1. **Fork** the repo
+2. **Create** a new branch: `git checkout -b feature-branch`
+3. **Commit** changes: `git commit -m "Added new feature"`
+4. **Push** to the branch: `git push origin feature-branch`
+5. **Submit a Pull Request** 🚀
