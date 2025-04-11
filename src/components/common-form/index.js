@@ -80,6 +80,7 @@ function CommonForm({
     return content;
   }
   return (
+    
     <form action={action}>
       {formControls.map((control) => renderInputByComponentType(control))}
 

@@ -72,11 +72,11 @@ function OnBoard() {
     );
   }
 
-  function handleCandidateFormvaild() {
-    return Object.keys(candidateFormData).every(
-      (key) => candidateFormData[key].trim() !== ""
-    );
-  }
+  // function handleCandidateFormvaild() {
+  //   return Object.keys(candidateFormData).every(
+  //     (key) => candidateFormData[key].trim() !== ""
+  //   );
+  // }
 
   async function createProfile() {
     const data =
@@ -122,7 +122,7 @@ function OnBoard() {
             formControls={candidateOnboardFormControls}
             buttonText={"Onboard as a candidate"}
             handleFileChange={handleFileChange}
-            isBtnDisabled={!handleCandidateFormvaild()}
+            // isBtnDisabled={!handleCandidateFormvaild()}
           />
         </TabsContent>
 

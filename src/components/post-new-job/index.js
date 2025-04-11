@@ -19,7 +19,7 @@ function PostNewJob({user, profileInfo , jobList }) {
   });
 
   function handlePostNewBtnValid(){
-    return Object.keys(jobFormData).every(control=>jobFormData[control].trim()!=='')
+    return Object.keys(jobFormData).every(control=>jobFormData[control]!=='')
   }
 
   async function createNewJob(params) {

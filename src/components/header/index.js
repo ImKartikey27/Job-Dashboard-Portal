@@ -63,6 +63,7 @@ function Header({user,profileInfo}) {
               {menuItems.map((menuItem) =>
                 menuItem.show ? (
                   <Link
+                    key={menuItem.path}
                     href={menuItem.path}
                     onClick={() => sessionStorage.removeItem("filterParams")}
                     className="flex w-full items-center py-2 text-lg font-semibold"
@@ -83,6 +84,7 @@ function Header({user,profileInfo}) {
           {menuItems.map((menuItem) =>
             menuItem.show ? (
               <Link
+                key={menuItem.path}
                 href={menuItem.path}
                 className="group inline-flex h-9 w-max items-center rounded-md bg-white px-4 py-2 text-sm font-medium"
               >
